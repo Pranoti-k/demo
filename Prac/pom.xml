@@ -3,14 +3,14 @@
   <groupId>com.practice</groupId>
   <artifactId>Prac</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-     <dependency>
+  <dependencies>
+    <!--  <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
-            <version>${selenium.version}</version>
+            <version>3.141.</version>
             <scope>test</scope>
         </dependency>
-        
+     -->    
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -54,4 +54,5 @@
          </executions>
          </plugin>
          </plugins>
+         </dependencies>
 </project>
